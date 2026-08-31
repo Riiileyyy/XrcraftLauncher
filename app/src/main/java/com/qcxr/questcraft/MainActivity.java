@@ -42,7 +42,7 @@ public class MainActivity extends ComponentActivity {
         //setDensity();
         weakMe = new WeakReference<>(this);
         uiThreadHandler = new Handler(Looper.getMainLooper());
-        //xrActivityInput = new XRActivityInput(uiThreadHandler);
+        xrActivityInput = new XRActivityInput(uiThreadHandler);
 
         // JudgeLib Init
         initJudgeLib();
