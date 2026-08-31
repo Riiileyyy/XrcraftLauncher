@@ -51,7 +51,7 @@ public class MainActivity extends ComponentActivity {
             JniBridge.setSkinImage(result.skinPngBytes(), result.slim());
         });
 
-        //JniBridge.start(this, getAssets());
+        JniBridge.start(this, getAssets());
         setContentView(UIActivity.createView(this));
     }
 
